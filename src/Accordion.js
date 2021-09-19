@@ -1,5 +1,5 @@
 import "./Accordion.css";
-import chrevronRight from "./chevron-right.svg";
+import chevronRight from "./chevron-right.svg";
 import { Accordion, Container, Card, Row, Col } from "react-bootstrap";
 
 export default function AccordionDisplay({
@@ -39,7 +39,7 @@ export default function AccordionDisplay({
               >
                 <img
                   className="accordion-arrow"
-                  src={chrevronRight}
+                  src={chevronRight}
                   width="18"
                   height="18"
                   alt="chevron-right"

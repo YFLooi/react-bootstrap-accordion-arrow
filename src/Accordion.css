@@ -16,7 +16,7 @@
 
 .accordion .card {
   /* We do this because the css "+" combinator works only on the next sibling
-     Thus, <Accordion.Toggle> has to be placed before <Accordion.Collapse> in JSX
+     Thus, <Accordion.Collapse> has to be placed before <Accordion.Toggle> in JSX
      To avoid the odd situation where the accordion's content shows up on top of the selector,
      this CSS reverses the order that shows up on screen with flexbox */
   display: flex;
